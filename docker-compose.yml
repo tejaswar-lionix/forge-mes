@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment: {POSTGRES_DB: forge, POSTGRES_USER: forge, POSTGRES_PASSWORD: forge}
+  redis:
+    image: redis:7
+  web:
+    build: .
+    ports: ["8000:8000"]
+    depends_on: [db, redis]

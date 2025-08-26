@@ -1,0 +1,3 @@
+
+import {describe,it,expect} from "vitest";
+describe("bom 1",()=>{it("oee",()=>expect(0.78).toBeCloseTo(0.78))})

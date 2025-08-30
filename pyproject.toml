@@ -1,0 +1,14 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "forge-mes"
+version = "1.0.0"
+description = "ForgeMES Digital Twin Factory - 100k LOC"
+requires-python = ">=3.11"
+license = {text="Proprietary"}
+dependencies = ["Django>=4.2","channels","daphne","celery","redis","psycopg2-binary","fastapi","uvicorn"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=apps --cov-report=term"

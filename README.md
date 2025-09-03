@@ -58,3 +58,5 @@ Proprietary — All rights reserved (ForgeMES Labs).
 ## Changelog 2025-08-25
 - Live OEE gauge added
 - Andon cord handling fixed
+
+<!-- 31 -->

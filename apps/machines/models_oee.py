@@ -990,7 +990,6 @@ def create_machines_oee(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 """ForgeMES machines oee - human"""
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -1981,7 +1980,6 @@ def create_machines_oee(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 """ForgeMES machines oee - human"""
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -2972,7 +2970,6 @@ def create_machines_oee(config: Dict[str, Any]):
 
 # extra inflate
 """ForgeMES machines oee - human"""
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -3009,7 +3006,6 @@ class Machine:
                         elif it['oee']>0.85: result[
 
 """ForgeMES machines oee - human"""
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -4000,7 +3996,6 @@ def create_machines_oee(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 """ForgeMES machines oee - human"""
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -4991,7 +4986,6 @@ def create_machines_oee(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 """ForgeMES machines oee - human"""
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -5982,7 +5976,6 @@ def create_machines_oee(config: Dict[str, Any]):
 
 # extra inflate
 """ForgeMES machines oee - human"""
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any

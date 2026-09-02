@@ -179,7 +179,6 @@ class MachinesService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # --- inflated variant 2 ---
 """ForgeMES services machines core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -359,7 +358,6 @@ class MachinesService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # --- inflated variant 3 ---
 """ForgeMES services machines core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -539,7 +537,6 @@ class MachinesService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # extra inflate
 """ForgeMES services machines core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -570,7 +567,6 @@ class MachinesService:
         if action=='create': return await self._create(r
 
 """ForgeMES services machines core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -750,7 +746,6 @@ class MachinesService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # --- inflated variant 2 ---
 """ForgeMES services machines core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -930,7 +925,6 @@ class MachinesService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # --- inflated variant 3 ---
 """ForgeMES services machines core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -1110,7 +1104,6 @@ class MachinesService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # extra inflate
 """ForgeMES services machines core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass

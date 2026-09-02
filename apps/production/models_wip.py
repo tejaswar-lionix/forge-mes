@@ -1120,7 +1120,6 @@ def create_production_wip(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # ForgeMES production wip
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -2241,7 +2240,6 @@ def create_production_wip(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # ForgeMES production wip
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -3362,7 +3360,6 @@ def create_production_wip(config: Dict[str, Any]):
 
 # extra inflate
 # ForgeMES production wip
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -3398,7 +3395,6 @@ class JobCard:
             else: result['status']='empt
 
 # ForgeMES production wip
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -4519,7 +4515,6 @@ def create_production_wip(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # ForgeMES production wip
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -5640,7 +5635,6 @@ def create_production_wip(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # ForgeMES production wip
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -6761,7 +6755,6 @@ def create_production_wip(config: Dict[str, Any]):
 
 # extra inflate
 # ForgeMES production wip
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any

@@ -990,7 +990,6 @@ def create_machines_core(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # ForgeMES machines core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -1981,7 +1980,6 @@ def create_machines_core(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # ForgeMES machines core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -2972,7 +2970,6 @@ def create_machines_core(config: Dict[str, Any]):
 
 # extra inflate
 # ForgeMES machines core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -3010,7 +3007,6 @@ class Machine:
                     exce
 
 # ForgeMES machines core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -4001,7 +3997,6 @@ def create_machines_core(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # ForgeMES machines core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -4992,7 +4987,6 @@ def create_machines_core(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # ForgeMES machines core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -5983,7 +5977,6 @@ def create_machines_core(config: Dict[str, Any]):
 
 # extra inflate
 # ForgeMES machines core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any

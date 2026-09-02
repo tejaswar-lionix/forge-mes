@@ -179,7 +179,6 @@ class BomService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # --- inflated variant 2 ---
 """ForgeMES services bom core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -359,7 +358,6 @@ class BomService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # --- inflated variant 3 ---
 """ForgeMES services bom core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -539,7 +537,6 @@ class BomService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # extra inflate
 """ForgeMES services bom core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -571,7 +568,6 @@ class BomService:
         
 
 """ForgeMES services bom core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -751,7 +747,6 @@ class BomService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # --- inflated variant 2 ---
 """ForgeMES services bom core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -931,7 +926,6 @@ class BomService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # --- inflated variant 3 ---
 """ForgeMES services bom core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass
@@ -1111,7 +1105,6 @@ class BomService:
     async def _list(self, req, req_id): return {'items':list(self.cache.values())[:10],'req_id':req_id}
 # extra inflate
 """ForgeMES services bom core"""
-from __future__ import annotations
 import asyncio, time, uuid, json, logging, re
 from typing import Dict, Any
 from dataclasses import dataclass

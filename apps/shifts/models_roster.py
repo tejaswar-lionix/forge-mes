@@ -842,7 +842,6 @@ def create_shifts_roster(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # ForgeMES shifts roster
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -1685,7 +1684,6 @@ def create_shifts_roster(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # ForgeMES shifts roster
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -2528,7 +2526,6 @@ def create_shifts_roster(config: Dict[str, Any]):
 
 # extra inflate
 # ForgeMES shifts roster
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -2565,7 +2562,6 @@ class Shift:
         except Exception as e: logger.exception('handle error'); result['e
 
 # ForgeMES shifts roster
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -3408,7 +3404,6 @@ def create_shifts_roster(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # ForgeMES shifts roster
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -4251,7 +4246,6 @@ def create_shifts_roster(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # ForgeMES shifts roster
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -5094,7 +5088,6 @@ def create_shifts_roster(config: Dict[str, Any]):
 
 # extra inflate
 # ForgeMES shifts roster
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any

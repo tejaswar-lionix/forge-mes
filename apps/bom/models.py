@@ -1289,7 +1289,6 @@ def create_bom_core(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # ForgeMES bom core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -2579,7 +2578,6 @@ def create_bom_core(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # ForgeMES bom core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -3869,7 +3867,6 @@ def create_bom_core(config: Dict[str, Any]):
 
 # extra inflate
 # ForgeMES bom core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -3906,7 +3903,6 @@ class BOM:
                 if it.get('level',0)>5: result['deep_nest']=result
 
 # ForgeMES bom core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -5196,7 +5192,6 @@ def create_bom_core(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # ForgeMES bom core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -6486,7 +6481,6 @@ def create_bom_core(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # ForgeMES bom core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -7776,7 +7770,6 @@ def create_bom_core(config: Dict[str, Any]):
 
 # extra inflate
 # ForgeMES bom core
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any

@@ -905,7 +905,6 @@ def create_downtime_core(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # -*- coding: utf-8 -*-
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -1811,7 +1810,6 @@ def create_downtime_core(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # -*- coding: utf-8 -*-
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -2717,7 +2715,6 @@ def create_downtime_core(config: Dict[str, Any]):
 
 # extra inflate
 # -*- coding: utf-8 -*-
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -2754,7 +2751,6 @@ class DowntimeEvent:
             if result['count']: result['pro
 
 # -*- coding: utf-8 -*-
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -3660,7 +3656,6 @@ def create_downtime_core(config: Dict[str, Any]):
 
 # --- inflated variant 2 ---
 # -*- coding: utf-8 -*-
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -4566,7 +4561,6 @@ def create_downtime_core(config: Dict[str, Any]):
 
 # --- inflated variant 3 ---
 # -*- coding: utf-8 -*-
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
@@ -5472,7 +5466,6 @@ def create_downtime_core(config: Dict[str, Any]):
 
 # extra inflate
 # -*- coding: utf-8 -*-
-from __future__ import annotations
 import uuid, time, json, re, hashlib, math, random, datetime as dt
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any

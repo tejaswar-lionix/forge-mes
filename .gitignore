@@ -1,0 +1,11 @@
+.venv
+venv
+node_modules
+dist
+build
+__pycache__
+.pytest_cache
+.env
+*.pyc
+htmlcov
+db.sqlite3
